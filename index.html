@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculator</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="favicon.png" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+			rel="stylesheet" />
+		<script
+			src="https://kit.fontawesome.com/a076d05399.js"
+			crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="dark-mode-toggle">
+				<i class="ri-sun-fill" id="toggler"></i>
+			</div>
+
+			<div class="container">
+				<div class="calculator">
+					<div class="display">
+						<div id="expression">0</div>
+					</div>
+					<div class="buttons">
+						<button class="btn clear">C</button>
+						<button class="btn">←</button>
+						<button class="btn operator">%</button>
+						<button class="btn operator">/</button>
+
+						<button class="btn number">7</button>
+						<button class="btn number">8</button>
+						<button class="btn number">9</button>
+						<button class="btn operator">*</button>
+
+						<button class="btn number">4</button>
+						<button class="btn number">5</button>
+						<button class="btn number">6</button>
+						<button class="btn operator">-</button>
+
+						<button class="btn number">1</button>
+						<button class="btn number">2</button>
+						<button class="btn number">3</button>
+						<button class="btn operator">+</button>
+
+						<button class="btn number">0</button>
+						<button class="btn number">.</button>
+						<button class="btn equal" colspan="2">=</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
